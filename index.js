@@ -1,7 +1,7 @@
-const fromExports = require('./dist/src');
-const { PrestoDriver } = require('./dist/src/PrestoDriver');
+const fromExports = require("./dist/src");
+const { TrinoDriver } = require("./dist/src/TrinoDriver");
 
-const toExport = PrestoDriver;
+const toExport = TrinoDriver;
 
 // eslint-disable-next-line no-restricted-syntax
 for (const [key, module] of Object.entries(fromExports)) {

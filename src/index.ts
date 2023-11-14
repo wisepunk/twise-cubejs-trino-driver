@@ -1,4 +1,4 @@
-import { PrestoDriver } from './PrestoDriver';
+import { TrinoDriver } from "./TrinoDriver";
 
-export default PrestoDriver;
-export { PrestoDriver };
+export default TrinoDriver;
+export { TrinoDriver };
