@@ -20,5 +20,3 @@ lerna-debug.log
 tsconfig.tsbuildinfo
 .tool-versions
 testings/
-
-dist
